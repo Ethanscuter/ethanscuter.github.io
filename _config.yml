@@ -2,7 +2,7 @@ exclude: ['README.md']
 timezone: US/Eastern
 papers:
   - layout: paper
-    year: 2020
+    year: 2021
     paper-type: inproceedings
     img: IJWSR2017
     title: Towards Multi-Modal Text-Image Retrieval to improve Human Reading
