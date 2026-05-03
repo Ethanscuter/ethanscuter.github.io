@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+/vendor/
+.bundle/
+push.sh
+.DS_Store
+_backup_old/
+google_scholar_crawler/.venv/
+google_scholar_crawler/results/
