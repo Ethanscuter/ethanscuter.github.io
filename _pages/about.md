@@ -50,7 +50,7 @@ My research focuses on **large language models and agentic systems**, with an em
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2025</div><img src='images/paper_emnlp2025.png' alt="EMNLP 2025" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Chinese Toxic Language Mitigation via Sentiment Polarity Consistent Rewrites](pdf/EMNLP2025Wang.pdf) <a href="https://github.com/PostMindLab/ToxiRewriteCN" title="Code on GitHub"><i class="fab fa-github"></i></a>
+[Chinese Toxic Language Mitigation via Sentiment Polarity Consistent Rewrites](pdf/EMNLP2025Wang.pdf) <a href="https://github.com/PostMindLab/ToxiRewriteCN" title="Code on GitHub"><i class="fab fa-github"></i></a> <a href="https://huggingface.co/datasets/shanewang/ToxiRewriteCN" title="Dataset on Hugging Face">🤗</a>
 
 **Xintong Wang**, Yixiao Liu, Jingheng Pan, Liang Ding, Longyue Wang, Chris Biemann
 
@@ -108,7 +108,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - `LREC-COLING 2024` [Probing Large Language Models from a Human Behavioral Perspective](pdf/NeusymBridge2024Wang.pdf), **Xintong Wang**, Xiaoyu Li, Xingshan Li, Chris Biemann. *NeusymBridge Workshop.*
 - `ECAI 2023` [Using Self-Supervised Dual Constraint Contrastive Learning for Cross-modal Retrieval](pdf/ECAI2023Wang.pdf), **Xintong Wang**, Xiaoyu Li, Liang Ding, Sanyuan Zhao, Chris Biemann.
 - `AACL-IJCNLP SRW 2022` [Language over Labels: Contrastive Language Supervision Exceeds Purely Label-Supervised Classification Performance on Chest X-Rays](https://aclanthology.org/2022.aacl-srw.11/), Anton Orell Wiehe, Florian Schneider, Sebastian Blank, **Xintong Wang**, Hans-Peter Zorn, Chris Biemann.
-- `LREC 2022` [MOTIF: Contextualized Images for Complex Words to Improve Human Reading](pdf/LREC2022.Wang.pdf), **Xintong Wang\***, Florian Schneider\*, Özge Alaçam, Prateek Chaudhury, Chris Biemann. [[Dataset]](https://drive.google.com/file/d/16hPX_gJAMfNYzzrEArvK-IlUq9CqBorE/view?usp=share_link)
+- `LREC 2022` [MOTIF: Contextualized Images for Complex Words to Improve Human Reading](pdf/LREC2022.Wang.pdf) <a href="https://huggingface.co/datasets/shanewang/MOTIF" title="Dataset on Hugging Face">🤗</a>, **Xintong Wang\***, Florian Schneider\*, Özge Alaçam, Prateek Chaudhury, Chris Biemann.
 - `NAACL SRW 2021` [Towards Multi-Modal Text-Image Retrieval to Improve Human Reading](pdf/NAACL@SRW2021.Schneider.pdf), Florian Schneider, Özge Alaçam, **Xintong Wang**, Chris Biemann.
 - `Information Sciences 2020` [Plausibility-promoting Generative Adversarial Network for Abstractive Text Summarization with Multi-task Constraint](https://www.sciencedirect.com/science/article/pii/S0020025520301328), Min Yang, **Xintong Wang**, Yao Lu, Jianming Lv, Ying Shen, Chengming Li. *JCR-Q1.*
 
@@ -129,14 +129,14 @@ My research focuses on **large language models and agentic systems**, with an em
 - **Yixiao Liu** (Ph.D. Candidate, Universität Hamburg, 2026 – present) — *LLM Post-Training, Interpretability, Cognitive Analysis*.
 
 **Supervised Master Students**
-- **Longqin Jiang** (M.Sc., Universität Hamburg, 2025 – present) — *In-Image Text Understanding, Vision-Language Models*.
-- **Jingfan Xin** (M.Sc., Universität Hamburg, 2025 – present) — *Large Reasoning Models*.
+- **Longqin Jiang** (M.Sc. Student, Universität Hamburg, 2025 – present) — *In-Image Text Understanding, Vision-Language Models*.
+- **Jingfan Xin** (M.Sc. Student, Universität Hamburg, 2025 – present) — *Large Reasoning Models*.
 
 **Interns**
 - **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
 - **Xincheng Li** (Ph.D. Candidate, Tongji University, 2026 Summer) — *LLM Post-Training, RL*.
-- **Haonan Qi** (M.Sc., Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
-- **Yongqi Zhang** (M.Sc., Southeast University, 2026 Summer) — *Multimodal LLMs*.
+- **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
+- **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
 
 **Previous Students**
 - **Xiaoyu Li** (M.Sc., TU Berlin & Beijing Institute of Technology, 2024) — *Foundation Models, Cross-Modal Representation Learning*.
@@ -145,7 +145,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - **Matthew Ng Cher-Wai** (M.Sc., Universität Hamburg, 2022) — *Multi-Modal Generation, Transformers*.
 - **Ankit Srivastava** (M.Sc., Universität Hamburg, 2022) — *Lexical Simplification, Educational NLP*.
 - **Florian Schneider** (M.Sc., Universität Hamburg, 2021) — *Self-Supervised Multi-Modal Retrieval*. *GSCL Best Master's Thesis Award 2023.*
-- **Prateek Chaudhury** (Research Assistant, IIT Delhi, 2021) — *Educational NLP, Reading Comprehension*.
+- **Prateek Chaudhury** (B.Sc., IIT Delhi, 2021) — *Educational NLP, Reading Comprehension*.
 
 
 # 🎖 Honors and Awards
