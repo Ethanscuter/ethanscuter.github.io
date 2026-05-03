@@ -23,7 +23,7 @@ I received my Ph.D. *summa cum laude* from the [University of Hamburg](https://w
 
 My research focuses on **large language models and agentic systems**, with an emphasis on **training and alignment, evaluation and interpretability, and multilingual and multimodal learning** for real-world applications. I have published 20+ papers in top international AI venues such as ACL, EMNLP, NAACL, COLING and ECAI <a href='https://scholar.google.com/citations?user=xYfO9VEAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-📄 [**Curriculum Vitae (PDF)**](pdf/Xintong_Wang_CV_General.pdf) &nbsp;·&nbsp; 💌 *hanfeng.wxt@alibaba-inc.com* / *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
+💌 *hanfeng.wxt@alibaba-inc.com* / *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
 
 🤝 **Opening:** We are hiring [full-time positions & interns](https://liamding.cc/hiring.html) at Alibaba, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
 
