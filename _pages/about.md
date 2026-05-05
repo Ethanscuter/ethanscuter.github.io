@@ -91,9 +91,9 @@ My research focuses on **large language models and agentic systems**, with an em
 
 ### Full Publication List
 
-(\* denotes equal contribution)
+(\* denotes equal contribution; <sup>✉️</sup> denotes corresponding author)
 
-- `Preprint 2026` [A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation](https://arxiv.org/pdf/2605.02035v1) <a href="https://huggingface.co/datasets/p1k0/visually-dependent-ambiguity" title="Dataset on Hugging Face">🤗</a>, Jingheng Pan, **Xintong Wang**, Longyue Wang, Liang Ding, Weihua Luo, Chris Biemann. *Under Review (ACL ARR).*
+- `Preprint 2026` [A Multimodal Dataset for Visually Grounded Ambiguity in Machine Translation](https://arxiv.org/pdf/2605.02035v1) <a href="https://huggingface.co/datasets/p1k0/visually-dependent-ambiguity" title="Dataset on Hugging Face">🤗</a>, Jingheng Pan, **Xintong Wang**<sup>✉️</sup>, Longyue Wang, Liang Ding, Weihua Luo, Chris Biemann. *Under Review (ACL ARR).*
 - `Preprint 2025` [Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](https://arxiv.org/abs/2505.04921), Yunxin Li, Zhenyu Liu, Zitao Li, Xuanyu Zhang, Zhenran Xu, Xinyu Chen, Haoyuan Shi, Shenyuan Jiang, **Xintong Wang**, Jifang Wang, Shouzheng Huang, Xinping Zhao, Borui Jiang, Lanqing Hong, Longyue Wang, Zhuotao Tian, Baoxing Huai, Wenhan Luo, Zheng Zhang, Baotian Hu, Min Zhang. *Under Review at ACM Computing Surveys.*
 - `Preprint 2025` [Rethinking Multilingual Vision-Language Translation: Dataset, Evaluation, and Adaptation](https://arxiv.org/abs/2510.01918), **Xintong Wang**, Jingheng Pan, Yixiao Liu, Xiaohu Zhao, Chenyang Lyu, Minghao Wu, Chris Biemann, Longyue Wang, Linlong Xu, Weihua Luo, Kaifu Zhang. *Under Review (ACL ARR).*
 - `Preprint 2025` [The Bitter Lesson Learned from 2,000+ Multilingual Benchmarks](https://arxiv.org/abs/2504.15521), Minghao Wu, Weixuan Wang, Sinuo Liu, Huifeng Yin, **Xintong Wang**, Yu Zhao, Chenyang Lyu, Longyue Wang, Weihua Luo, Kaifu Zhang. *Under Review (ACL ARR).*
