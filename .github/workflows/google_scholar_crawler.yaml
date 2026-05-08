@@ -18,17 +18,27 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Restore previous citation data
+        run: |
+          mkdir -p google_scholar_crawler/results
+          git fetch origin google-scholar-stats:refs/remotes/origin/google-scholar-stats --depth=1 || true
+          if git show origin/google-scholar-stats:gs_data.json > /tmp/gs_data.json; then
+            mv /tmp/gs_data.json google_scholar_crawler/results/gs_data.json
+          fi
+          if git show origin/google-scholar-stats:gs_data_shieldsio.json > /tmp/gs_data_shieldsio.json; then
+            mv /tmp/gs_data_shieldsio.json google_scholar_crawler/results/gs_data_shieldsio.json
+          fi
       - name: Run crawler
         run: |
           cd ./google_scholar_crawler
-          pip install -r requirements.txt
+          python -m pip install -r requirements.txt
           python main.py
           cd ./results
           git init
           git config --local user.name  "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           remote_repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
-          git add *.json
+          git add gs_data.json gs_data_shieldsio.json
           git commit -m "Update citation data"
           git push "${remote_repo}" HEAD:google-scholar-stats --force
         env:
