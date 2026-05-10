@@ -4,6 +4,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -21,6 +22,18 @@ FALLBACK_USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/124.0 Safari/537.36"
+)
+USER_AGENTS = (
+    FALLBACK_USER_AGENT,
+    (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+    ),
+    (
+        "Mozilla/5.0 (X11; Linux x86_64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0 Safari/537.36"
+    ),
 )
 
 
@@ -54,12 +67,11 @@ def read_scholar_id() -> str:
     )
 
 
-def fetch_profile_html(scholar_id: str) -> str:
-    url = f"{PROFILE_URL}?user={scholar_id}&hl=en&pagesize=100"
+def fetch_url(url: str, user_agent: str) -> str:
     request = Request(
         url,
         headers={
-            "User-Agent": os.environ.get("GOOGLE_SCHOLAR_USER_AGENT", FALLBACK_USER_AGENT),
+            "User-Agent": user_agent,
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
             "Accept-Language": "en-US,en;q=0.9",
         },
@@ -82,6 +94,27 @@ def fetch_profile_html(scholar_id: str) -> str:
         raise RuntimeError("Google Scholar blocked this request.")
 
     return html
+
+
+def fetch_profile_html(scholar_id: str) -> str:
+    urls = (
+        f"{PROFILE_URL}?user={scholar_id}&hl=en&pagesize=100",
+        f"{PROFILE_URL}?view_op=list_works&user={scholar_id}&hl=en&pagesize=100",
+    )
+    configured_agent = os.environ.get("GOOGLE_SCHOLAR_USER_AGENT")
+    user_agents = (configured_agent,) if configured_agent else USER_AGENTS
+    last_error: Exception | None = None
+
+    for attempt, url in enumerate(urls, start=1):
+        for user_agent in user_agents:
+            try:
+                return fetch_url(url, user_agent)
+            except RuntimeError as error:
+                last_error = error
+                print(f"Fetch attempt {attempt} failed: {error}", file=sys.stderr)
+                time.sleep(3)
+
+    raise RuntimeError(f"Google Scholar fetch failed after retries: {last_error}")
 
 
 def meta_content(soup: BeautifulSoup, selector: str) -> str:
@@ -280,11 +313,15 @@ def write_outputs(author: dict[str, Any]) -> None:
 
 def main() -> int:
     scholar_id = read_scholar_id()
+    require_fresh = os.environ.get("REQUIRE_FRESH_SCHOLAR_STATS", "").lower() == "true"
 
     try:
         author = build_author_payload(scholar_id, fetch_profile_html(scholar_id))
     except Exception as error:
         print(f"Fresh Google Scholar fetch failed: {error}", file=sys.stderr)
+        if require_fresh:
+            print("Fresh Scholar data is required, so this run will fail.", file=sys.stderr)
+            return 1
         author = fallback_payload(scholar_id, error)
         print("Using previous citation data from google-scholar-stats.", file=sys.stderr)
 
