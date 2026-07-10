@@ -125,10 +125,11 @@ My research focuses on **large language models and agentic systems**, with an em
 # 🎓 Supervision
 
 **Co-Supervised Doctoral Students**
-- **Jingheng Pan** (Ph.D. Candidate, Universität Hamburg, 2025 – present) — *LVLM Post-Training, Reasoning*.
 - **Yixiao Liu** (Ph.D. Candidate, Universität Hamburg, 2026 – present) — *LLM Post-Training, Interpretability, Cognitive Analysis*.
+- **Jingheng Pan** (Ph.D. Candidate, Universität Hamburg, 2025 – present) — *LVLM Post-Training, Reasoning*.
 
 **Supervised Master Students**
+- **Ayko Schwedler** (M.Sc. Student, Universität Hamburg, 2026 – present) — *Agentic Memory and Application*.
 - **Longqin Jiang** (M.Sc. Student, Universität Hamburg, 2025 – present) — *In-Image Text Understanding, Vision-Language Models*.
 - **Jingfan Xin** (M.Sc. Student, Universität Hamburg, 2025 – present) — *Large Reasoning Models*.
 
