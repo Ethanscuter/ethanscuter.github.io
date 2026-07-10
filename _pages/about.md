@@ -89,9 +89,9 @@ My research focuses on **large language models and agentic systems**, with an em
 </div>
 </div>
 
-### Full Publication List
+### Selected Publications
 
-(\* denotes equal contribution; <sup>✉️</sup> denotes corresponding author)
+(\* denotes equal contribution; <sup>✉️</sup> denotes corresponding author. For the complete list, please see my <a href='https://scholar.google.com/citations?user=xYfO9VEAAAAJ&hl=en'>Google Scholar</a>.)
 
 - `Preprint 2026` [Grounded Scaling: Why Agentic AI Needs Deterministic Environments](https://arxiv.org/abs/2606.22495), Liang Ding, **Xintong Wang**.
 - `Preprint 2026` [IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products](https://arxiv.org/abs/2606.14383), Haonan Qi, Jin Cao, Yongqi Zhang, **Xintong Wang**<sup>✉️</sup>, Weidong Tang, Bin Chen, Chengfu Huo, Haojun Pan, Hengyu You, Jing Li, Yingde Wang, Liang Ding.
@@ -108,13 +108,8 @@ My research focuses on **large language models and agentic systems**, with an em
 - `ACL 2025` [M2PA: A Multi-Memory Planning Agent for Open Worlds Inspired by Cognitive Theory](https://aclanthology.org/2025.findings-acl.1235/), Yanfang Zhou, Xiaodong Li, Yuntao Liu, Yongqiang Zhao, **Xintong Wang**, Zhenyu Li, Jinlong Tian, Xinhai Xu. *Findings.*
 - `COLING 2025` [Multilingual and Explainable Text Detoxification with Parallel Data](pdf/COLING2025.pdf), Daryna Dementieva, Daniil Moskovskiy, Nikolai Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, **Xintong Wang**, Seid Muhie Yimam, Dmitry Ustalov, Elisei Stakovskii, Alisa Smirnova, Ashraf Elnagar, Animesh Mukherjee, Alexander Panchenko. *Oral.*
 - `ACL 2024` [Mitigating Hallucinations in Large Vision-Language Models with Instruction Contrastive Decoding](https://aclanthology.org/2024.findings-acl.937.pdf) <a href="https://github.com/PostMindLab/ICD" title="Code on GitHub"><i class="fab fa-github"></i></a>, **Xintong Wang**, Jingheng Pan, Liang Ding, Chris Biemann. *Findings.*
-- `CLEF 2024` [Overview of PAN 2024: Multi-Author Writing Style Analysis, Multilingual Text Detoxification, Oppositional Thinking Analysis, and Generative AI Authorship Verification](pdf/CLEF2024.pdf), Abinew Ali Ayele, Nikolay Babakov, Janek Bevendorff, Xavier Bonet Casals, Berta Chulvi, Daryna Dementieva, ..., **Xintong Wang**, Matti Wiegmann, Seid Muhie Yimam, Eva Zangerle.
-- `CLEF 2024` [Overview of the Multilingual Text Detoxification Task at PAN 2024](https://ceur-ws.org/Vol-3740/paper-223.pdf), Daryna Dementieva, Daniil Moskovskiy, Nikolai Babakov, Abinew Ali Ayele, Naquee Rizwan, Florian Schneider, **Xintong Wang**, Seid Muhie Yimam, et al.
-- `LREC-COLING 2024` [Probing Large Language Models from a Human Behavioral Perspective](pdf/NeusymBridge2024Wang.pdf), **Xintong Wang**, Xiaoyu Li, Xingshan Li, Chris Biemann. *NeusymBridge Workshop.*
 - `ECAI 2023` [Using Self-Supervised Dual Constraint Contrastive Learning for Cross-modal Retrieval](pdf/ECAI2023Wang.pdf), **Xintong Wang**, Xiaoyu Li, Liang Ding, Sanyuan Zhao, Chris Biemann.
-- `AACL-IJCNLP SRW 2022` [Language over Labels: Contrastive Language Supervision Exceeds Purely Label-Supervised Classification Performance on Chest X-Rays](https://aclanthology.org/2022.aacl-srw.11/), Anton Orell Wiehe, Florian Schneider, Sebastian Blank, **Xintong Wang**, Hans-Peter Zorn, Chris Biemann.
 - `LREC 2022` [MOTIF: Contextualized Images for Complex Words to Improve Human Reading](pdf/LREC2022.Wang.pdf) <a href="https://huggingface.co/datasets/shanewang/MOTIF" title="Dataset on Hugging Face">🤗</a>, **Xintong Wang\***, Florian Schneider\*, Özge Alaçam, Prateek Chaudhury, Chris Biemann.
-- `NAACL SRW 2021` [Towards Multi-Modal Text-Image Retrieval to Improve Human Reading](pdf/NAACL@SRW2021.Schneider.pdf), Florian Schneider, Özge Alaçam, **Xintong Wang**, Chris Biemann.
 - `Information Sciences 2020` [Plausibility-promoting Generative Adversarial Network for Abstractive Text Summarization with Multi-task Constraint](https://www.sciencedirect.com/science/article/pii/S0020025520301328), Min Yang, **Xintong Wang**, Yao Lu, Jianming Lv, Ying Shen, Chengming Li. *JCR-Q1.*
 
 
