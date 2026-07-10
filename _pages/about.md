@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a **Senior Agentic AI Applied Scientist** at the CBU Technology Department of [Taobao & Tmall Group (Alibaba)](https://www.alibabagroup.com/) in Hangzhou, China, where I serve as **Tech Lead of the Multimodal Team**, driving trillion-parameter–scale RL models and architecting a multimodal agent collaboration framework for coordinated perception, reasoning, and action. In parallel, I am a researcher and **PI** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
+I am currently a **Senior Agentic AI Applied Scientist** at the CBU Technology Department of [Taobao & Tmall Group (Alibaba)](https://www.alibabagroup.com/) in Hangzhou, China, where I serve as **Tech Lead of the Multimodal Team**, driving trillion-parameter–scale RL models and architecting a multimodal agent collaboration framework for coordinated perception, reasoning, and action. In parallel, I am a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
 
 I received my Ph.D. *summa cum laude* from the [University of Hamburg](https://www.uni-hamburg.de/en.html) in May 2026, advised by Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html). My doctoral thesis is "*Bridging Vision, Language, and Gaze for Trustworthy Foundation Models*". Previously, I obtained my M.Eng. (2019) and B.Eng. (2016) degrees from the School of Computer Science and Engineering, [South China University of Technology](https://www.scut.edu.cn/en/).
 
@@ -134,7 +134,8 @@ My research focuses on **large language models and agentic systems**, with an em
 
 **Interns**
 - **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
-- **Xincheng Li** (Ph.D. Candidate, Tongji University, 2026 Summer) — *LLM Post-Training, RL*.
+- **Qingyu Lu** (Ph.D. Candidate, Southeast University, 2026 Summer) — *LLM Post-Training, RL*.
+- **Yuchen Wu** (Ph.D. Candidate, Shanghai Jiao Tong University, 2026 Summer) — *Agent Memory*.
 - **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
 - **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
 
