@@ -1,0 +1,5 @@
+# Optional build overlay. Layer it on top of the base config with:
+#   bundle exec jekyll build --config _config.yml,_config.hamburg.yml
+#   bundle exec jekyll serve --config _config.yml,_config.hamburg.yml
+# It sets show_industry to false to select the alternate content variant.
+show_industry: false

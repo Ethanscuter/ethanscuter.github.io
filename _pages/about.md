@@ -17,20 +17,26 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+{% if site.show_industry %}
 I am currently a **Senior Agentic AI Applied Scientist** at the CBU Technology Department of [Taobao & Tmall Group (Alibaba)](https://www.alibabagroup.com/) in Hangzhou, China, where I serve as **Tech Lead of the Multimodal Team**, driving trillion-parameter–scale RL models and architecting a multimodal agent collaboration framework for coordinated perception, reasoning, and action. In parallel, I am a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
+{% else %}
+I am currently a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
+{% endif %}
 
 I received my Ph.D. *summa cum laude* from the [University of Hamburg](https://www.uni-hamburg.de/en.html) in May 2026, advised by Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html). My doctoral thesis is "*Bridging Vision, Language, and Gaze for Trustworthy Foundation Models*". Previously, I obtained my M.Eng. (2019) and B.Eng. (2016) degrees from the School of Computer Science and Engineering, [South China University of Technology](https://www.scut.edu.cn/en/).
 
 My research focuses on **large language models and agentic systems**, with an emphasis on **training and alignment, evaluation and interpretability, and multilingual and multimodal learning** for real-world applications. I have published 20+ papers in top international AI venues such as ACL, EMNLP, NAACL, COLING and ECAI <a href='https://scholar.google.com/citations?user=xYfO9VEAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-💌 *hanfeng.wxt@alibaba-inc.com* / *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
+{% if site.show_industry %}💌 *hanfeng.wxt@alibaba-inc.com* / *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
+{% else %}💌 *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
+{% endif %}
 
 🤝 **Opening:** We are hiring [full-time positions & interns](https://liamding.cc/hiring.html) at Alibaba, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
 
 
 # 🔥 News
-- *2026.06*: &nbsp;💼 I joined the CBU Technology Department, Taobao & Tmall Group (Alibaba) as a Senior Agentic AI Applied Scientist in Hangzhou.
-- *2026.05*: &nbsp;🎓 I successfully defended my Ph.D. dissertation at the University of Hamburg (*summa cum laude*).
+{% if site.show_industry %}- *2026.06*: &nbsp;💼 I joined the CBU Technology Department, Taobao & Tmall Group (Alibaba) as a Senior Agentic AI Applied Scientist in Hangzhou.
+{% endif %}- *2026.05*: &nbsp;🎓 I successfully defended my Ph.D. dissertation at the University of Hamburg (*summa cum laude*).
 - *2026.03*: &nbsp;🎉 One paper accepted to **ACL 2026 (Findings)**, and two papers accepted to **ACL 2026 Workshops** — both received awards 🏆!
 - *2025.08*: &nbsp;🎉 One paper accepted to **EMNLP 2025 (Main, Top 15%)**!
 - *2025.05*: &nbsp;🎉 Three papers accepted to **ACL 2025**!

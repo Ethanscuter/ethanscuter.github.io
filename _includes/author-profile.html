@@ -19,8 +19,10 @@
       {% if site.description %}
         <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
       {% endif %}
-      {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+      {% assign profile_location = author.location %}
+      {% unless site.show_industry %}{% if author.location_academic %}{% assign profile_location = author.location_academic %}{% endif %}{% endunless %}
+      {% if profile_location %}
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ profile_location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>

@@ -11,6 +11,10 @@ description              : "Research on Large Language Models, Vision-Language M
 repository               : "Ethanscuter/ethanscuter.github.io"
 google_scholar_stats_use_cdn : true
 
+# Optional content variant. Layer the overlay config to switch variants:
+#   bundle exec jekyll build --config _config.yml,_config.hamburg.yml
+show_industry            : true
+
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 
@@ -25,6 +29,7 @@ author:
   avatar           : "images/avatar.jpg"
   bio              : "AI Researcher"
   location         : "Hangzhou, China"
+  location_academic: "Hamburg, Germany"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=xYfO9VEAAAAJ&hl=en"
