@@ -139,6 +139,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - **Yuchen Wu** (Ph.D. Candidate, Shanghai Jiao Tong University, 2026 Summer) — *Agent Memory*.
 - **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
 - **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
+- **Yan Shi** (M.Sc. Student, Harbin Institute of Technology, 2026 Summer) — *Multimodal Embeddings*.
 
 **Previous Students**
 - **Xiaoyu Li** (M.Sc., TU Berlin & Beijing Institute of Technology, 2024) — *Foundation Models, Cross-Modal Representation Learning*.
