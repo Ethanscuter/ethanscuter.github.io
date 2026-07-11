@@ -131,7 +131,6 @@ My research focuses on **large language models and agentic systems**, with an em
 **Supervised Master Students**
 - **Ayko Schwedler** (M.Sc. Student, Universität Hamburg, 2026 – present) — *Agentic Memory and Application*.
 - **Longqin Jiang** (M.Sc. Student, Universität Hamburg, 2025 – present) — *In-Image Text Understanding, Vision-Language Models*.
-- **Jingfan Xin** (M.Sc. Student, Universität Hamburg, 2025 – present) — *Large Reasoning Models*.
 
 **Interns**
 - **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
