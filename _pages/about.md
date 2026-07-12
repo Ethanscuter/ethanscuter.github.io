@@ -159,6 +159,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - **Yan Shi** (M.Sc. Student, Harbin Institute of Technology, 2026 Summer) — *Multimodal Embeddings*.
 
 **Previous Students**
+- **Jingfan Xin** (M.Sc., Universität Hamburg, 2025) — *Large Reasoning Models*.
 - **Xiaoyu Li** (M.Sc., TU Berlin & Beijing Institute of Technology, 2024) — *Foundation Models, Cross-Modal Representation Learning*.
 - **Fabian Meyer** (M.Sc., Universität Hamburg, 2023) — *Out-of-Distribution Detection, Robustness*.
 - **Anton Orell Wiehe** (M.Sc., Universität Hamburg, 2022) — *Domain Adaptation, Multi-Modal Foundation Models*.
