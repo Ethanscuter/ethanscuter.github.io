@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hiring - Multimodal & Industrial AI | Alibaba 1688</title>
+    <style>
+        :root {
+            --bg-page: #f6f8fa;
+            --bg-card: #ffffff;
+            --text-main: #24292f;
+            --text-title: #0f1419;
+            --text-muted: #57606a;
+            --primary: #0055FF;
+            --border: #d0d7de;
+            --code-bg: rgba(175, 184, 193, 0.2);
+            --code-text: #0055FF;
+            --accent-border: #0055FF;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background-color: var(--bg-page);
+            background-image: radial-gradient(#bac4ce 1px, transparent 1px);
+            background-size: 24px 24px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 48px 56px;
+            border: 1px solid var(--border);
+            margin-bottom: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+            color: var(--text-title);
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 32px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eaecef;
+            color: var(--text-title);
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-title);
+        }
+        p {
+            margin-bottom: 14px;
+            text-align: justify;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        li { margin-bottom: 8px; }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover { text-decoration: underline; }
+
+        .geek-hl {
+            font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+            background-color: var(--code-bg);
+            color: var(--code-text);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .positions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .position-card {
+            background: #ffffff;
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--accent-border);
+            border-radius: 8px;
+            padding: 24px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .position-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(140, 149, 159, 0.15);
+        }
+        .position-card ul { margin-bottom: 0; }
+
+        .contact-box {
+            background-color: #f6f8fa;
+            border: 1px solid var(--border);
+            padding: 20px 24px;
+            border-radius: 8px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        .divider { text-align: center; margin: 50px 0; color: #afb8c1; letter-spacing: 8px; font-size: 14px;}
+
+        .lang-nav {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            padding: 0 0 24px 0;
+        }
+        .lang-nav a {
+            background: var(--bg-card);
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 14px;
+            color: var(--text-main);
+            font-weight: 600;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+        }
+        .lang-nav a:hover {
+            background: #f3f4f6;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 15px 10px; background-size: 16px 16px; }
+            .container { padding: 30px 24px; }
+            .positions-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 24px; }
+            h2 { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="lang-nav">
+        <a href="#chinese-section">🇨🇳 中文版</a>
+        <a href="#english-section">🇬🇧 English Version</a>
+    </div>
+
+    <div class="container" id="chinese-section">
+        <h1>[招聘] 大模型算法工程师 / 研究科学家</h1>
+        <p style="color: var(--text-muted); font-size: 14px; font-weight: 500; margin-bottom: 24px;">阿里巴巴淘天集团 (Taobao and Tmall Group) 1688 | 多模态与产业智能团队</p>
+
+        <h2>团队介绍</h2>
+        <ul>
+            <li><strong>愿景:</strong> 构建阿里巴巴数字供应链上的“世界模型”。</li>
+            <li><strong>实力:</strong> 团队具备从零训练千亿级大模型的全链路经验。斩获 <strong>10+ 次世界冠军</strong>（GLUE/SuperGLUE 登顶超越人类）。核心成员累计发表 <strong>100+ 篇顶会顶刊</strong>（Nature子刊, NeurIPS, ACL, CVPR, etc.），并常任各大顶会（NeurIPS, ACL, EMNLP etc.）领域主席。</li>
+            <li><strong>战绩:</strong> 极强的 0-1 产品化能力。核心骨干曾作为 <strong>Chief Scientist（所属 GenAI 初创获超 50M 美金融资）</strong>牵头研发 音乐生成底模, 展示设计Agent, 角色扮演等模型产品。在阿里，团队主导了跨境 Agent <a href="https://www.alphashop.cn/" target="_blank">遨虾 (AlphaShop)</a> 的底层端到端 Agentic 算法，并联合通义实验室发布了 <a href="https://ecombench.ai/" target="_blank">EcomBench</a> 榜单。</li>
+            <li><strong>战略:</strong> 100% 聚焦最难的深水区——<strong>“供给确定性”</strong>。致力于打通数字供应链在 <span class="geek-hl">Agent CLI</span> 时代的供给闭环：涵盖标品的高精匹配、货盘映射与自动换供，以及非标品的端到端 C2M/M2C。推动交互范式走向原生 Agent-to-Agent (A2A) 自主生态。</li>
+            <li><strong>团队:</strong> 顶尖“阿里星” + B2B 业务算法专家。扁平、简单、纯粹、创新的极客氛围，拒绝大公司病。</li>
+        </ul>
+
+        <h2>开放职位</h2>
+
+        <div class="positions-grid">
+            <div class="position-card">
+                <h3>1. 工业级 VLM 多模态底座</h3>
+                <p><strong>核心:</strong> 构建工业级 VLM 底座，解决复杂物理数据表征与对齐，提供高精度数字基建。</p>
+                <ul>
+                    <li><strong>工作:</strong> 工业级多模态底座全流程迭代；设计先进 <span class="geek-hl">VLM CPT, RLHF/RLAIF</span> 多模底座；提出完善 <span class="geek-hl">数据合成</span> 算法管线；重构海量品商 <span class="geek-hl">Embedding 与 Rerank</span> 引擎，确保极高确定性的分发。</li>
+                    <li><strong>要求:</strong> AI相关硕博，顶会核心贡献。深谙 VLM 架构与 Scaling Laws，模型直觉强。</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>2. 产业大模型与知识图谱</h3>
+                <p><strong>核心:</strong> 构建产业 LLM 底座，通过全链路训练与复杂推理，打造高精度产业知识图谱。</p>
+                <ul>
+                    <li><strong>工作:</strong> 主导大模型产业级 <span class="geek-hl">CPT、Post-train 与 RL</span>；提升复杂逻辑推理能力；利用大模型抽取构建动态 <span class="geek-hl">知识图谱</span>，并完善严苛的工业级 <span class="geek-hl">Evaluation</span> 体系。</li>
+                    <li><strong>要求:</strong> 扎实 NLP/LLM 基础，大规模 CPT 训练、信息抽取或推理优化经验丰富。</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>3. C2M Agentic 算法</h3>
+                <p><strong>核心:</strong> 优化电商垂域 Agent 基础设施，通过后训练与强化学习提升复杂环境高确定性推理。</p>
+                <ul>
+                    <li><strong>工作:</strong> 深度优化后训练算法（<span class="geek-hl">GRPO, PPO, SearchR1</span>），提升模型 <span class="geek-hl">Tool-use</span> 与 Deep Research 能力；构建高保真环境，攻坚 <span class="geek-hl">Multi-Agent RL</span> 闭环。提升多种非标商品的 Agent2Agent（CLI）端到端 <span class="geek-hl">C2M/M2C 确定性</span>。</li>
+                    <li><strong>要求:</strong> 深谙 Alignment 算法。有设计美感，物理几何直觉好优先。</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>4. 2D/3D AIGC 与可制造性</h3>
+                <p><strong>核心:</strong> 突破数字生成到物理制造的算法瓶颈，实现从 AIGC 到工厂参数的无缝编译。</p>
+                <ul>
+                    <li><strong>工作:</strong> 研发前沿 <span class="geek-hl">2D/3D AIGC</span> 算法；攻克 <span class="geek-hl">参数化重构与工业修复</span> 难题，将视觉 Mesh 几何转换为高精度工业标准（<span class="geek-hl">CAD/CAM</span>，满足打样公差）。</li>
+                    <li><strong>要求:</strong> 2D/3D 视觉/GenAI 领域（Mesh, NeRF, Gaussian Splatting）深厚积累。有工业参数化或 CAD 内核研究背景优先。</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>🎓 研究型实习生 (Research Intern)</h3>
+                <p><strong>核心:</strong> 依托阿里真实商业场景与充足算力，在解决万亿级供应链的硬核难题中冲击顶会顶刊。</p>
+                <ul>
+                    <li><strong>工作:</strong> 深入四大核心方向。在百篇顶会经验的 <span class="geek-hl">Area Chair</span> 亲自指导下，打通“业务落地-前沿研究-顶级发表”的闭环，将工业级算法突破转化为学术与开源影响力。</li>
+                    <li><strong>要求:</strong> AI相关专业在读硕博。极强的代码工程能力与科研自驱力，兼具学术野心与 <span class="geek-hl">落地务实</span>。有相关顶会发表经验优先，实习 3-6 个月以上。</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <strong>工作地点：</strong> 杭州<br>
+            <strong>开放层级：</strong> <span class="geek-hl">P5 - P8 均可</span> （从天才校招/顶尖实习生到资深算法专家全覆盖）<br>
+            <strong>投递简历：</strong> <a href="mailto:m.e.xintong@gmail.com">m.e.xintong@gmail.com</a> / <a href="mailto:hanfeng.wxt@alibaba-inc.com">hanfeng.wxt@alibaba-inc.com</a><br>
+            <strong>联系微信：</strong> XintongCMLer
+        </div>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <div class="container" id="english-section">
+        <h1>[Hiring] Research Scientist / Algorithm Eng.</h1>
+        <p style="color: var(--text-muted); font-size: 14px; font-weight: 500; margin-bottom: 24px;">Alibaba Taobao and Tmall Group (1688) | Multimodal and Industrial AI Team</p>
+
+        <h2>About Us</h2>
+        <ul>
+            <li><strong>Vision:</strong> Building the <span class="geek-hl">World Model</span> for Alibaba's digital supply chain.</li>
+            <li><strong>SOTA:</strong> End-to-end experience in training 100B+ models from scratch. <strong>10+ World Championships</strong> (incl. ranking 1st on GLUE/SuperGLUE, surpassing human baselines). Core members have published <strong>100+ Top Papers</strong> (Nature sub-journals, NeurIPS, ACL, CVPR) and actively serve as Area Chairs for major AI conferences.</li>
+            <li><strong>Impact:</strong> Proven 0-to-1 productization. Our core leadership previously served as Chief Scientist at a <strong>$50M+ GenAI startup</strong> (architecting the Music Gen foundation, Agentic Presentation Engine, and Roleplay models). At Alibaba, the team built the end-to-end Agentic algorithms for <a href="https://www.alphashop.cn/" target="_blank">AlphaShop</a> and co-released the <a href="https://ecombench.ai/" target="_blank">EcomBench</a> leaderboard.</li>
+            <li><strong>Strategy:</strong> 100% focused on <strong>Supply Certainty</strong>. We are closing the loop in the digital supply chain via <span class="geek-hl">Agent CLI</span>: from high-precision matching and auto-routing for standard goods, to end-to-end C2M/M2C for non-standard goods. Driving the paradigm shift toward an Agent-to-Agent (A2A) ecosystem.</li>
+            <li><strong>Culture:</strong> Top-tier "Alibaba Stars" & B2B domain experts. Flat, pure, and innovative geek culture. Zero corporate bureaucracy.</li>
+        </ul>
+
+        <h2>Open Positions</h2>
+
+        <div class="positions-grid">
+            <div class="position-card">
+                <h3>1. Industrial VLM & Multimodal Foundation</h3>
+                <p><strong>Focus:</strong> Build industrial VLM foundations to resolve complex physical data representation and alignment.</p>
+                <ul>
+                    <li><strong>Work:</strong> End-to-end VLM iteration; design advanced <span class="geek-hl">CPT & RLHF/RLAIF</span> pipelines; build <span class="geek-hl">Data Synthesis</span> workflows; rebuild <span class="geek-hl">Embedding & Rerank</span> engines for massive B2B data.</li>
+                    <li><strong>Reqs:</strong> Ph.D./MS in AI with core contributions in top conferences. Deep intuition for VLM architectures and Scaling Laws.</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>2. Industrial LLM & Knowledge Graph</h3>
+                <p><strong>Focus:</strong> Construct LLM foundations and high-precision knowledge graphs via complex reasoning.</p>
+                <ul>
+                    <li><strong>Work:</strong> Lead large-scale <span class="geek-hl">CPT, Post-train & RL</span>; enhance logical reasoning; extract dynamic <span class="geek-hl">Knowledge Graphs</span>; build rigorous industrial-grade <span class="geek-hl">Evaluation</span> metrics.</li>
+                    <li><strong>Reqs:</strong> Solid NLP/LLM background. Expertise in large-scale CPT, information extraction, or reasoning optimization.</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>3. C2M Agentic Algorithms</h3>
+                <p><strong>Focus:</strong> Optimize e-commerce Agent infrastructure and highly deterministic reasoning via post-training and RL.</p>
+                <ul>
+                    <li><strong>Work:</strong> Deeply optimize <span class="geek-hl">GRPO/PPO/SearchR1</span> for <span class="geek-hl">Tool-use</span> and Deep Research; build high-fidelity environments and <span class="geek-hl">Multi-Agent RL</span> loops. Enhance end-to-end C2M/M2C determinism via A2A (CLI) interactions.</li>
+                    <li><strong>Reqs:</strong> Expertise in Alignment algorithms. Strong geometric/physical intuition and design aesthetics are highly preferred.</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>4. 2D/3D AIGC & Computational Manufacturing</h3>
+                <p><strong>Focus:</strong> Bridge digital generation and physical manufacturing (seamless AIGC to factory parameters).</p>
+                <ul>
+                    <li><strong>Work:</strong> Develop SOTA <span class="geek-hl">2D/3D AIGC</span> algorithms; tackle <span class="geek-hl">Parametric Reconstruction & Repair</span> to convert visual meshes into CAD/CAM standards (meeting prototyping tolerances).</li>
+                    <li><strong>Reqs:</strong> Deep expertise in Vision/GenAI (Mesh, NeRF, 3DGS). Background in CAD kernel or industrial parametric algorithms is a major plus.</li>
+                </ul>
+            </div>
+
+            <div class="position-card">
+                <h3>🎓 Research Intern</h3>
+                <p><strong>Focus:</strong> Tackle hard industrial challenges using Alibaba's massive real-world data and compute.</p>
+                <ul>
+                    <li><strong>Work:</strong> Dive into our 4 core areas. Mentored directly by <span class="geek-hl">Area Chairs</span> (100+ papers) to translate real-world B2B breakthroughs into top-tier papers (ACL/NeurIPS/ICLR) and open-source impact.</li>
+                    <li><strong>Reqs:</strong> Enrolled MS/Ph.D. in AI. Balances academic ambition with <span class="geek-hl">pragmatic execution</span>. Prior top-tier publications highly preferred. Available for 3-6+ months.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <strong>Location:</strong> Hangzhou, China<br>
+            <strong>Levels:</strong> <span class="geek-hl">P5 - P8</span> (From brilliant interns/fresh grads to seasoned technical experts)<br>
+            <strong>Apply:</strong> <a href="mailto:m.e.xintong@gmail.com">m.e.xintong@gmail.com</a> / <a href="mailto:hanfeng.wxt@alibaba-inc.com">hanfeng.wxt@alibaba-inc.com</a><br>
+            <strong>WeChat:</strong> XintongCMLer
+        </div>
+    </div>
+
+</body>
+</html>

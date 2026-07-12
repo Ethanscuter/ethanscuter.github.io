@@ -33,7 +33,9 @@ My research focuses on **large language models and agentic systems**, with an em
 {% else %}💌 *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
 {% endif %}
 
-🤝 **Opening:** We are hiring for [full-time and internship positions](https://liamding.cc/hiring.html) at Alibaba, and I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
+{% if site.show_industry %}🤝 **Opening:** We are hiring for [full-time and internship positions](alibaba-hiring.html) at Alibaba, and I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
+{% else %}🤝 **Opening:** I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg, and we are also hiring for [full-time and internship positions](alibaba-hiring.html) at Alibaba. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
+{% endif %}
 
 
 # 🔥 News
