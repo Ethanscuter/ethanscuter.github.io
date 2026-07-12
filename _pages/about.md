@@ -18,9 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 {% if site.show_industry %}
-I am currently a **Senior Agentic AI Applied Scientist** at the CBU Technology Department of [Taobao & Tmall Group (Alibaba)](https://www.alibabagroup.com/) in Hangzhou, China, where I serve as **Tech Lead of the Multimodal Team**, driving trillion-parameter–scale RL models and architecting a multimodal agent collaboration framework for coordinated perception, reasoning, and action. In parallel, I am a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
+I am currently a **Senior Agentic AI Applied Scientist** at the CBU Technology Department of [Taobao & Tmall Group (Alibaba)](https://www.alibabagroup.com/) in Hangzhou, China, where I serve as **Tech Lead of the Multimodal Team**, driving trillion-parameter–scale RL models and architecting a multimodal agent collaboration framework for coordinated perception, reasoning, and action. In parallel, I am a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Language Technology Group](https://www.inf.uni-hamburg.de/en/inst/ab/lt.html) and the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
 {% else %}
-I am currently a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
+I am currently a **Habilitation-track Researcher** and **Ph.D. Co-Supervisor** at the [Language Technology Group](https://www.inf.uni-hamburg.de/en/inst/ab/lt.html) and the [Hub of Computing & Data Science](https://www.hcds.uni-hamburg.de/), [University of Hamburg](https://www.uni-hamburg.de/en.html), working with Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html).
 {% endif %}
 
 🎓 **Ph.D. Openings:** I am looking for motivated Ph.D. students at the University of Hamburg to work on large language models, vision-language models, and agentic systems. Feel free to reach out with your CV, and we can discuss possible funding options.
@@ -33,7 +33,7 @@ My research focuses on **large language models and agentic systems**, with an em
 {% else %}💌 *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
 {% endif %}
 
-🤝 **Opening:** We are hiring [full-time positions & interns](https://liamding.cc/hiring.html) at Alibaba, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
+🤝 **Opening:** We are hiring for [full-time and internship positions](https://liamding.cc/hiring.html) at Alibaba, and I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
 
 
 # 🔥 News
