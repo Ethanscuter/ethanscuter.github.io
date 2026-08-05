@@ -25,7 +25,7 @@ I am currently a **Researcher** and **Ph.D. Co-Supervisor** at the [Language Tec
 
 🎓 **Ph.D. Openings:** I am looking for motivated Ph.D. students at the University of Hamburg to work on large language models, vision-language models, and agentic systems. Feel free to reach out with your CV, and we can discuss possible funding options.
 
-I received my Ph.D. *summa cum laude* from the [University of Hamburg](https://www.uni-hamburg.de/en.html) in May 2026, advised by Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html). My doctoral thesis is "*Bridging Vision, Language, and Gaze for Trustworthy Foundation Models*". Previously, I obtained my M.Eng. (2019) and B.Eng. (2016) degrees from the School of Computer Science and Engineering, [South China University of Technology](https://www.scut.edu.cn/en/).
+I received my Ph.D. *summa cum laude* from the [University of Hamburg](https://www.uni-hamburg.de/en.html) in June 2026, advised by Prof. [Chris Biemann](https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/chris-biemann.html). My doctoral thesis is "*Bridging Vision, Language, and Gaze for Trustworthy Foundation Models*". Previously, I obtained my M.Eng. (2019) and B.Eng. (2016) degrees from the School of Computer Science and Engineering, [South China University of Technology](https://www.scut.edu.cn/en/).
 
 My research focuses on **large language models and agentic systems**, with an emphasis on **training and alignment, evaluation and interpretability, and multilingual and multimodal learning** for real-world applications. I have published 20+ papers in top international AI venues such as ACL, EMNLP, NAACL, COLING and ECAI <a href='https://scholar.google.com/citations?user=xYfO9VEAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
@@ -40,7 +40,7 @@ My research focuses on **large language models and agentic systems**, with an em
 
 # 🔥 News
 {% if site.show_industry %}- *2026.06*: &nbsp;💼 I joined the CBU Technology Department, Taobao & Tmall Group (Alibaba) as a Senior Agentic AI Applied Scientist in Hangzhou.
-{% endif %}- *2026.05*: &nbsp;🎓 I successfully defended my Ph.D. dissertation at the University of Hamburg (*summa cum laude*).
+{% endif %}- *2026.06*: &nbsp;🎓 I successfully defended my Ph.D. dissertation at the University of Hamburg (*summa cum laude*).
 - *2026.03*: &nbsp;🎉 One paper accepted to **ACL 2026 (Findings)**, and two papers accepted to **ACL 2026 Workshops** — both received awards 🏆!
 - *2025.08*: &nbsp;🎉 One paper accepted to **EMNLP 2025 (Main, Top 15%)**!
 - *2025.05*: &nbsp;🎉 Three papers accepted to **ACL 2025**!
