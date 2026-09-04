@@ -108,8 +108,8 @@ My research focuses on **large language models and agentic systems**, with an em
 - `Preprint 2026` [Grounded Scaling: Why Agentic AI Needs Deterministic Environments](https://arxiv.org/abs/2606.22495), Liang Ding, **Xintong Wang**.
 - `Preprint 2026` [IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products](https://arxiv.org/abs/2606.14383) <a href="https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench-MIPU" title="Dataset on Hugging Face">🤗</a>, Haonan Qi, Jin Cao, Yongqi Zhang, **Xintong Wang**<sup>✉️</sup>, Weidong Tang, Bin Chen, Chengfu Huo, Haojun Pan, Hengyu You, Jing Li, Yingde Wang, Liang Ding.
 - `Preprint 2026` [ARBOR: Online Process Rewards via a Reusable Rubric Buffer for Search Agents](https://arxiv.org/abs/2606.03239), Zheng Liu, Longxiang Zhang, **Xintong Wang**, Zhiang Xu, Shaoxiong Zhan, Xin Shan, Wen Huang, Tao Dai, Shu-Tao Xia, Chengfu Huo, Liang Ding.
-- `EMNLP 2026` What Matters for Aggressive Decoding-Time KV Eviction? Temporal Memory, Not Better Scoring, Bo Zeng, Yu Zhao, Yefeng Liu, Zhihong Lu, Xuanfan Ni, **Xintong Wang**<sup>✉️</sup>. *Main Conference.*
-- `EMNLP 2026` CulturalMenuBench: Probing the Knowledge-Application Gap in Multimodal Culinary Reasoning, Bo Zeng, Linfeng Gao, Peiqin Lin, Yu Zhao, Mingyan Zeng, Yu Tong, **Xintong Wang**<sup>✉️</sup>, Linlong Xu, Longyue Wang, Weihua Luo, Qinggang Zhang, Jinsong Su. *Findings.*
+- `EMNLP 2026` [What Matters for Aggressive Decoding-Time KV Eviction? Temporal Memory, Not Better Scoring](https://arxiv.org/abs/2609.03515), Bo Zeng, Yu Zhao, Yefeng Liu, Zhihong Lu, Xuanfan Ni, **Xintong Wang**<sup>✉️</sup>. *Main Conference.*
+- `EMNLP 2026` [CulturalMenuBench: Probing the Knowledge-Application Gap in Multimodal Culinary Reasoning](https://arxiv.org/abs/2609.03526), Bo Zeng, Linfeng Gao, Peiqin Lin, Yu Zhao, Mingyan Zeng, Yu Tong, **Xintong Wang**<sup>✉️</sup>, Linlong Xu, Longyue Wang, Weihua Luo, Qinggang Zhang, Jinsong Su. *Findings.*
 - `ACL 2026` [POLAR: A Benchmark for Multilingual, Multicultural, and Multi-Event Online Polarization](https://arxiv.org/abs/2505.20624), Usman Naseem, Robert Geislinger, Juan Ren, ..., **Xintong Wang**, ..., Chris Biemann, Shamsuddeen Hassan Muhammad, Seid Muhie Yimam. *Findings.*
 - `EMNLP 2025` [Chinese Toxic Language Mitigation via Sentiment Polarity Consistent Rewrites](pdf/EMNLP2025Wang.pdf) <a href="https://github.com/PostMindLab/ToxiRewriteCN" title="Code on GitHub"><i class="fab fa-github"></i></a> <a href="https://huggingface.co/datasets/shanewang/ToxiRewriteCN" title="Dataset on Hugging Face">🤗</a>, **Xintong Wang**, Yixiao Liu, Jingheng Pan, Liang Ding, Longyue Wang, Chris Biemann. *Main Conference, Top 15%.*
 - `ACL 2025` [CogSteer: Cognition-Inspired Selective Layer Intervention for Efficiently Steering Large Language Models](https://arxiv.org/abs/2410.17714) <a href="https://github.com/PostMindLab/cogsteer" title="Code on GitHub"><i class="fab fa-github"></i></a>, **Xintong Wang**, Jingheng Pan, Liang Ding, Longyue Wang, Longqin Jiang, Xingshan Li, Chris Biemann. *Findings.*
@@ -145,13 +145,13 @@ My research focuses on **large language models and agentic systems**, with an em
 
 **Interns**
 - **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
-- **Qingyu Lu** (Ph.D. Candidate, Southeast University, 2026 Summer) — *LLM Post-Training, RL*.
 - **Yuchen Wu** (Ph.D. Candidate, Shanghai Jiao Tong University, 2026 Summer) — *Agent Memory*.
-- **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
 - **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
-- **Yan Shi** (M.Sc. Student, Harbin Institute of Technology, 2026 Summer) — *Multimodal Embeddings*.
 
 **Previous Students**
+- **Qingyu Lu** (Ph.D. Candidate, Southeast University, 2026 Summer) — *LLM Post-Training, RL*.
+- **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
+- **Yan Shi** (M.Sc. Student, Harbin Institute of Technology, 2026 Summer) — *Multimodal Embeddings*.
 - **Jingfan Xin** (M.Sc., Universität Hamburg, 2025) — *Large Reasoning Models*.
 - **Xiaoyu Li** (M.Sc., TU Berlin & Beijing Institute of Technology, 2024) — *Foundation Models, Cross-Modal Representation Learning*.
 - **Fabian Meyer** (M.Sc., Universität Hamburg, 2023) — *Out-of-Distribution Detection, Robustness*.
