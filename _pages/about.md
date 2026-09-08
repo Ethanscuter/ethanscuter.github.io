@@ -39,6 +39,7 @@ My research focuses on **large language models and agentic systems**, with an em
 
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉 One paper accepted to **AACL 2026** (Main)!
 - *2026.08*: &nbsp;🎉 Two papers accepted to **EMNLP 2026** (one Main, one Findings)!
 {% if site.show_industry %}- *2026.06*: &nbsp;💼 I joined the CBU Technology Department, Taobao & Tmall Group (Alibaba) as a Senior Agentic AI Applied Scientist in Hangzhou.
 {% endif %}- *2026.06*: &nbsp;🎓 I successfully defended my Ph.D. dissertation at the University of Hamburg (*summa cum laude*).
@@ -108,6 +109,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - `Preprint 2026` [Grounded Scaling: Why Agentic AI Needs Deterministic Environments](https://arxiv.org/abs/2606.22495), Liang Ding, **Xintong Wang**.
 - `Preprint 2026` [IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products](https://arxiv.org/abs/2606.14383) <a href="https://huggingface.co/datasets/alibaba-multimodal-industrial-ai/IndustryBench-MIPU" title="Dataset on Hugging Face">🤗</a>, Haonan Qi, Jin Cao, Yongqi Zhang, **Xintong Wang**<sup>✉️</sup>, Weidong Tang, Bin Chen, Chengfu Huo, Haojun Pan, Hengyu You, Jing Li, Yingde Wang, Liang Ding.
 - `Preprint 2026` [ARBOR: Online Process Rewards via a Reusable Rubric Buffer for Search Agents](https://arxiv.org/abs/2606.03239), Zheng Liu, Longxiang Zhang, **Xintong Wang**, Zhiang Xu, Shaoxiong Zhan, Xin Shan, Wen Huang, Tao Dai, Shu-Tao Xia, Chengfu Huo, Liang Ding.
+- `AACL 2026` [VIDA: A Dataset for Visually Dependent Ambiguity in Multimodal Machine Translation](https://arxiv.org/abs/2605.02035) <a href="https://huggingface.co/datasets/p1k0/visually-dependent-ambiguity" title="Dataset on Hugging Face">🤗</a>, Jingheng Pan, **Xintong Wang**<sup>✉️</sup>, Longyue Wang, Liang Ding, Weihua Luo, Chris Biemann. *Main Conference.*
 - `EMNLP 2026` [What Matters for Aggressive Decoding-Time KV Eviction? Temporal Memory, Not Better Scoring](https://arxiv.org/abs/2609.03515), Bo Zeng, Yu Zhao, Yefeng Liu, Zhihong Lu, Xuanfan Ni, **Xintong Wang**<sup>✉️</sup>. *Main Conference.*
 - `EMNLP 2026` [CulturalMenuBench: Probing the Knowledge-Application Gap in Multimodal Culinary Reasoning](https://arxiv.org/abs/2609.03526), Bo Zeng, Linfeng Gao, Peiqin Lin, Yu Zhao, Mingyan Zeng, Yu Tong, **Xintong Wang**<sup>✉️</sup>, Linlong Xu, Longyue Wang, Weihua Luo, Qinggang Zhang, Jinsong Su. *Findings.*
 - `ACL 2026` [POLAR: A Benchmark for Multilingual, Multicultural, and Multi-Event Online Polarization](https://arxiv.org/abs/2505.20624), Usman Naseem, Robert Geislinger, Juan Ren, ..., **Xintong Wang**, ..., Chris Biemann, Shamsuddeen Hassan Muhammad, Seid Muhie Yimam. *Findings.*
