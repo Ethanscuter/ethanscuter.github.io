@@ -138,7 +138,7 @@ My research focuses on **large language models and agentic systems**, with an em
 # 🎓 Supervision
 
 **Co-Supervised Doctoral Students**
-- **Yixiao Liu** (Ph.D. Candidate, Universität Hamburg, 2026 – present) — *LLM Post-Training, Interpretability, Cognitive Analysis*.
+- **Yixiao Liu** (Ph.D. Candidate, Universität Hamburg, 2026 – present) — *Agent Memory, Cognitive Analysis*.
 - **Jingheng Pan** (Ph.D. Candidate, Universität Hamburg, 2025 – present) — *LVLM Post-Training, Reasoning*.
 
 **Supervised Master Students**
@@ -146,11 +146,12 @@ My research focuses on **large language models and agentic systems**, with an em
 - **Longqin Jiang** (M.Sc. Student, Universität Hamburg, 2025 – present) — *In-Image Text Understanding, Vision-Language Models*.
 
 **Interns**
-- **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
+- **Ouyangzi Ye** (M.Sc. Student, Zhejiang University, 2026 Winter) — *Multimodal Agents*.
 - **Yuchen Wu** (Ph.D. Candidate, Shanghai Jiao Tong University, 2026 Summer) — *Agent Memory*.
-- **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
 
 **Previous Students**
+- **Duo Li** (Ph.D. Candidate, Nanyang Technological University, 2026 Summer) — *Multimodal Agents*.
+- **Yongqi Zhang** (M.Sc. Student, Southeast University, 2026 Summer) — *Multimodal LLMs*.
 - **Qingyu Lu** (Ph.D. Candidate, Southeast University, 2026 Summer) — *LLM Post-Training, RL*.
 - **Haonan Qi** (M.Sc. Student, Shanghai Jiao Tong University, 2026 Summer) — *Vision-Language Reasoning*.
 - **Yan Shi** (M.Sc. Student, Harbin Institute of Technology, 2026 Summer) — *Multimodal Embeddings*.
@@ -165,6 +166,7 @@ My research focuses on **large language models and agentic systems**, with an em
 
 
 # 🎖 Honors and Awards
+- *2026*, Alibaba Postdoc Fellowship (USD 80,000, PI).
 - *2026*, Best Paper Award, 9th Workshop on Event Extraction and Understanding: Challenges and Applications.
 - *2026*, Runner-Up Award, SemEval-2026 Task 9: Detecting Multilingual, Multicultural and Multi-event Online Polarization.
 - *2025*, Alibaba Group AliStar Program — *Offer declined*.
