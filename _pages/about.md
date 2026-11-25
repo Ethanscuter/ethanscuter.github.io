@@ -33,10 +33,6 @@ My research focuses on **large language models and agentic systems**, with an em
 {% else %}💌 *xintong.wang@uni-hamburg.de* / *m.e.xintong@gmail.com*
 {% endif %}
 
-{% if site.show_industry %}🤝 **Opening:** We are hiring for [full-time and internship positions](alibaba-hiring.html) at Alibaba, and I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
-{% else %}🤝 **Opening:** I am looking for Ph.D. students, Master's thesis students, and student assistants at the University of Hamburg, and we are also hiring for [full-time and internship positions](alibaba-hiring.html) at Alibaba. Self-motivated students with experience in LLMs, LVLMs, and Agents are welcome to reach out. Please feel free to drop me an email — I am always open to collaborations.
-{% endif %}
-
 
 # 🔥 News
 - *2026.09*: &nbsp;🎉 One paper accepted to **AACL 2026** (Main)!
@@ -46,7 +42,7 @@ My research focuses on **large language models and agentic systems**, with an em
 - *2026.03*: &nbsp;🎉 One paper accepted to **ACL 2026 (Findings)**, and two papers accepted to **ACL 2026 Workshops** — both received awards 🏆!
 - *2025.08*: &nbsp;🎉 One paper accepted to **EMNLP 2025 (Main, Top 15%)**!
 - *2025.05*: &nbsp;🎉 Three papers accepted to **ACL 2025**!
-- *2024.12*: &nbsp;😊 Serving as an **Area Chair** for ACL ARR / NAACL 2025!
+- *2024.12*: &nbsp;😊 Serving as an **Area Chair** for ACL ARR!
 - *2024.11*: &nbsp;🎉 One paper accepted to **COLING 2025 (Oral)**!
 - *2024.05*: &nbsp;🎉 One paper accepted to **ACL 2024 (Findings)**!
 - *2024.03*: &nbsp;🎉 One paper accepted to **LREC-COLING NeusymBridge 2024**!
@@ -166,7 +162,7 @@ My research focuses on **large language models and agentic systems**, with an em
 
 
 # 🎖 Honors and Awards
-- *2026*, Alibaba Postdoc Fellowship (USD 80,000, PI).
+- *2026*, Alibaba Postdoc Fellowship (USD 80,000, PI, 2026 – 2028).
 - *2026*, Best Paper Award, 9th Workshop on Event Extraction and Understanding: Challenges and Applications.
 - *2026*, Runner-Up Award, SemEval-2026 Task 9: Detecting Multilingual, Multicultural and Multi-event Online Polarization.
 - *2025*, Alibaba Group AliStar Program — *Offer declined*.
